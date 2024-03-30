@@ -1,0 +1,13 @@
+prefix=/Users/deltae/Source-Code-Analysis-RAG/venv
+exec_prefix=/Users/deltae/Source-Code-Analysis-RAG/venv
+libdir=/Users/deltae/Source-Code-Analysis-RAG/venv/lib
+sharedlibdir=/Users/deltae/Source-Code-Analysis-RAG/venv/lib
+includedir=/Users/deltae/Source-Code-Analysis-RAG/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
